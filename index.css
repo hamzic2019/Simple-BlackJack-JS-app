@@ -1,0 +1,19 @@
+* {
+    text-align: center;
+}
+
+header {
+    
+}
+
+footer {
+
+}
+
+article {
+    background-color: red;
+    width: 350px;
+    height: 150px;
+    margin: 20px auto;
+    
+}

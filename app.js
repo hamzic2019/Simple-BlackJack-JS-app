@@ -1,16 +1,10 @@
 //
 // Haris Hamzić
-// BlackJack Console Based Game
-// 05.11.2019
+// BlackJack Web Based Game
+// 07.11.2019
 //
 
-let card1 = 'Ace of Spades',
-    card2 = 'Ten of Hearts';
+let suits = ['Hearts', 'Clubs', 'Diamonds', 'Spades'];
+let values = ['Ace', 'King', 'Queen', 'Jack', 'Ten','Nine', 'Eight', 'Seven', 'Six', 'Five', 'Four', 'Three', 'Two'];
 
 
-
-console.log("Welcome to BlackJack Console Based Game");
-
-console.log("You are dealt: ");
-console.log(" " + card1);
-console.log(" " + card2);
