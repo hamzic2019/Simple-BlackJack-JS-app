@@ -1,19 +1,38 @@
 * {
     text-align: center;
+
+}
+
+body {
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    text-align: center;
+    background-position: center;
+    background-color: lightseagreen;
 }
 
 header {
-    
+    color:White;
 }
 
 footer {
-
+    margin-top: 5px;
 }
 
 article {
-    background-color: red;
-    width: 350px;
+    background-color:lightcoral;
+    width: 406px;
     height: 150px;
     margin: 20px auto;
     
+}
+
+#player {
+    margin-top: 105px;
+}
+
+#card0, #card1, #card2, #card3, #card4, #card5, #card6, #card7 {
+    height: 100%;
+    float: center;
 }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BlackJack - Web Based Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
@@ -13,18 +14,24 @@
         <p>Welcome to best BlackJack Web Based Game</p>
     </header>
 
-        <article>
-
+        <article id="dealer">
+            <img id="card0" src="./img/cards/10C.png" alt="" srcset="">
+            <img id="card1" src="./img/cards/9C.png" alt="" srcset="">
+            <img id="card2" src="./img/cards/10C.png" alt="" srcset="">
+            <img id="card3" src="./img/cards/10C.png" alt="" srcset="">
         </article>
 
-        <article>
-            
+        <article id="player">
+            <img id="card4" src="./img/cards/10C.png" alt="" srcset="">
+            <img id="card5" src="./img/cards/10C.png" alt="" srcset="">
+            <img id="card6" src="./img/cards/10C.png" alt="" srcset="">
+            <img id="card7" src="./img/cards/10C.png" alt="" srcset="">
         </article>
 
     <footer>
-        <button id="hit">HIT</button>
-        <button id="newGame">Start New Game</button>
-        <button id="stay">STAY</button>
+        <button id="hit" class="btn btn-danger">HIT</button>
+        <button id="newGame" class="btn btn-primary">Start New Game</button>
+        <button id="stay" class="btn btn-danger">STAY</button>
     </footer>
 
 
